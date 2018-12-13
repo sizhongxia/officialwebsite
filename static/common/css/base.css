@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* ****************************************************
+	base.css
+***************************************************** */
+
+#loader {
+	background: #FFFFFF;
+	z-index: 9000;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+#loader span {
+	display: block;
+	width: 110px;
+	height: 110px;
+	background: url(/static/images/load.gif);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -55px;
+	margin-left: -55px;
+}
+#qLbar{
+	background:#0f1723 !important;
+	color:#fff;
+	z-index:100000;
+}
+#qLbg{
+	z-index:99000;
+}
+#qLpercentage{
+	font-style:italic !important;
+}
+
+
+/*  for All
+=========================================*/
+html {
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: auto;
+	position: relative;
+	min-width: 1280px;
+	color:#333;
+	font-family: "PingFangSC-Light" , "Microsoft YaHei" , "宋体", arial, sans-serif;
+	font-size:14px;
+    font-weight: 100;
+	line-height:1.7;
+}
+
+*{margin: 0; padding: 0;}
+
+a{
+	color:#666;
+	text-decoration:underline;
+}
+a:hover{
+	color:#333;
+}
+a:hover img.ov{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.aL{
+	text-align:left;
+}
+.aC{
+	text-align:center;
+}
+.aR{
+	text-align:right;
+}
+.colL{
+	float:left;
+}
+.colC{
+	float:left;
+}
+.colR{
+	float:right;
+}
+.clr{
+	clear:both;
+}
+strong{
+	font-weight:bold;
+}
+small{
+	font-size:11px;
+	-webkit-text-size-adjust:none;
+}
+
+
+/*  margin/padding
+=========================================*/
+.pt0{
+	padding-top:0 !important;
+}
+.mt10{
+	margin-top:10px !important;
+}
+.mt15{
+	margin-top:20px !important;
+}
+.mt20{
+	margin-top:20px !important;
+}
+.mt40{
+	margin-top:40px !important;
+}
+.mt45{
+	margin-top:45px !important;
+}
+
+
+/*  twoCol
+=========================================*/
+/* twoCol01 */
+
+
+
+/*  threeCol
+=========================================*/
+/* threeCol01 */
+
+
+
+/*  fourCol
+=========================================*/
+/* fourCol01 */
+
+
+/*  box
+=========================================*/
+
+
+/*  listStyle
+=========================================*/
+/* listStyle01 */
+
+
+/*  tableType
+=========================================*/
+/* tableType01 */
+
+
+
+/*  extra
+=========================================*/
+/* clearfix */
+.case_list:after,
+.clearfix:after{
+	display:block;
+	clear:both;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+	content:".";
+	font-size:0;
+}
+.case_list,
+.clearfix{
+	zoom:1;
+}
