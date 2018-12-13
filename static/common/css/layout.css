@@ -286,7 +286,7 @@
 /* index_case */
 .index_case{
     max-width: 1920px;
-    background: url(/static/images/index/index_case_bg.jpg) no-repeat center center;
+    /* background: url(/static/images/index/index_case_bg.jpg) no-repeat center center; */
     background-size: cover;
     margin: 0 auto;
     overflow: hidden;
@@ -358,14 +358,14 @@
     margin: 0 auto;
     padding: 58px 0 20px;
 }
-.index_brand .inner h2{
+/* .index_brand .inner h2{
     margin-bottom: 40px;
-}
+} */
 .index_brand .inner ul{
     width: 1280px;
-    height: 352px;
-    background: url(/static/images/index/index_brand_bg.png) no-repeat left top;
-    padding-top: 35px;
+    height: 150px;
+    /* background: url(/static/images/index/index_brand_bg.png) no-repeat left top; */
+    /* padding-top: 35px; */
 }
 .index_brand .inner ul li{
     float: left;
@@ -1219,8 +1219,9 @@
 #FootWrap{
     clear:both;
     max-width: 1920px;
-    background: url(/static/common/images/cn_footer_bg.jpg) no-repeat center center;
-    background-size: cover;
+    /* background: url(/static/common/images/cn_footer_bg.jpg) no-repeat center center; */
+    background: #212121;
+    /* background-size: cover; */
     margin: 0 auto;
     overflow: hidden;
 }
@@ -1238,7 +1239,7 @@
     padding: 14px 20px;
 }
 #FootWrap .slogan .join a:hover{
-    background: #0f52c4;
+    background: #ffffff;
 }
 
 #Footer{
@@ -1246,7 +1247,7 @@
     margin: 0 auto;
 }
 #Footer .threeCol{
-    margin: 80px 0;
+    margin: 40px 0;
 }
 #Footer .threeCol .colL{
     width: 585px;
@@ -1289,12 +1290,11 @@
 }
 #Footer .threeCol .colC dl dd a:hover{
     text-decoration: none;
-    color: #0f52c4;
+    color: #ffffff;
 }
 #Footer .threeCol .colR .txt{
-    font-size: 20px;
+    font-size: 14px;
     color: #fff;
-    padding-top: 20px;
 }
 
 #Footer .copyright{

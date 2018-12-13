@@ -15,13 +15,13 @@
         <div id="Header" class="selection">
             <h1 class="logo"><img src="/static/common/images/logo.png" alt="一通无限"></h1>
             <ul id="HeaderNav">
-                <li><a href="/index" class="active">首页</a></li>
-                <li><a href="news.html">新闻资讯</a></li>
-                <li><a href="mediaSoftware.html">产品方案</a>
+                <li><a href="/" class="active">首页</a></li>
+                <li><a href="javascript:;">新闻资讯</a></li>
+                <li><a href="javascript:;">产品方案</a>
                     <div class="subnav subnav2">
                         <ul>
-                            <li><a href="mediaSoftware.html">智慧工地解决方案</a></li>
-                            <li><a href="products.html#product1">智慧养殖解决方案</a></li>
+                            <li><a href="javascript:;">智慧工地解决方案</a></li>
+                            <li><a href="javascript:;">智慧养殖解决方案</a></li>
                         </ul>
                     </div>
                 </li>
@@ -41,9 +41,7 @@
                 </div>
                 <div class="bd">
                     <ul>
-                        <li class="p1">
-                            <img class="selection" src="/static/images/slider_p1.png" />
-                        </li>
+                        <li class="p1"></li>
                         <li class="p2"></li>
                         <li class="p3"></li>
                     </ul>
@@ -51,7 +49,7 @@
             </div>
         </div>
         <!-- SliderWrap end -->
-        <div class="index_schemeBox">
+        <!-- <div class="index_schemeBox">
             <ul class="clearfix">
                 <li>
                     <a href="project_hotel_new.html">
@@ -72,9 +70,9 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- index_schemeBox end -->
-        <div class="index_schemeBox2" id="index_schemeBox2">
+        <!-- <div class="index_schemeBox2" id="index_schemeBox2">
             <div class="inner clearfix selection">
                 <h2><img src="/static/images/index/index_scheme2_h2.png" alt="产品方案"></h2>
                 <div class="scheme scheme_case1 wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
@@ -99,7 +97,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- index_schemeBox2 end -->
         <div class="index_advantage " id="index_advantage">
             <div class="inner clearfix selection">
@@ -129,73 +127,55 @@
         <!-- index_advantage end -->
         <div class="index_case" id="index_case">
             <div class="inner clearfix selection">
-                <h2><img src="/static/images/index/index_case_h2.png" alt="合作案例"></h2>
+                <h2><img src="/static/images/index/index_case_h2.png" alt="产品案例"></h2>
                 <ul class="clearfix">
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
-                        <a href="cases_starHotel.html">
+                        <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p1.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt1.png" alt="星级酒店"></p>
+                            <p class="txt"><img src="/static/images/index/index_case_txt1.png" alt="产品案例"></p>
                             <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
                             <p class="hoverbg"></p>
                         </a>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <a href="cases_fineHotel.html">
+                        <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p2.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt2.png" alt="精品酒店"></p>
+                            <p class="txt"><img src="/static/images/index/index_case_txt2.png" alt="产品案例"></p>
                             <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
                             <p class="hoverbg"></p>
                         </a>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <a href="cases_themeHotel.html">
+                        <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p4.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt4.png" alt="主题酒店"></p>
+                            <p class="txt"><img src="/static/images/index/index_case_txt4.png" alt="产品案例"></p>
                             <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
                             <p class="hoverbg"></p>
                         </a>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <a href="cases_budgetHotel.html">
+                        <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p3.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt3.png" alt="经济酒店"></p>
+                            <p class="txt"><img src="/static/images/index/index_case_txt3.png" alt="产品案例"></p>
                             <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
                             <p class="hoverbg"></p>
                         </a>
                     </li>
-                </ul>
-            </div>
-        </div>
-        <!-- schemeBox2 end -->
-        <div class="index_brand" id="index_brand">
-            <div class="inner selection">
-                <h2><img src="/static/images/index/index_brand_h2.png" alt="合作伙伴"></h2>
-                <ul class="clearfix">
-                    <li><img src="/static/images/index/index_brand_p1.jpg" alt="夏普"></li>
-                    <li><img src="/static/images/index/index_brand_p2.jpg" alt="海尔"></li>
-                    <li><img src="/static/images/index/index_brand_p3.jpg" alt="海信"></li>
-                    <li><img src="/static/images/index/index_brand_p4.jpg" alt="创维"></li>
-                    <li><img src="/static/images/index/index_brand_p5.jpg" alt="TCL"></li>
-                    <li><img src="/static/images/index/index_brand_p6.jpg" alt="极米"></li>
-                    <li><img src="/static/images/index/index_brand_p7.jpg" alt="坚果"></li>
-                    <li><img src="/static/images/index/index_brand_p8.jpg" alt="Bicool"></li>
-                    <li><img src="/static/images/index/index_brand_p9.jpg" alt="appotronics"></li>
-                    <li><img src="/static/images/index/index_brand_p10.jpg" alt="PHILIPS"></li>
                 </ul>
             </div>
         </div>
         <!-- index_brand end -->
         <div class="index_news" id="index_news">
             <div class="inner selection">
-                <h2><img src="/static/images/index/index_news_h2.png" alt="新闻动态"></h2>
+                <h2><img src="/static/images/index/index_news_h2.png" alt="新闻资讯"></h2>
                 <div class="twoCol clearfix">
                     <div class="colL">
-                        <a href="new_20181101.html">
+                        <a href="javascript:;">
                             <!--class="ov"-->
-                            <p class="img imgTransition"><img src="/static/images/index/index_news_tmp.jpg" alt=""></p>
+                            <p class="img imgTransition"><img src="/static/images/index/index_news_tmp.jpg" alt="新闻资讯"></p>
                             <div class="txt">
                                 <p class="ttl">精选：</p>
-                                <p class="title">11月相约上海见</p>
+                                <p class="title">新闻标题新闻标题</p>
                                 <p class="line"></p>
                                 <p class="more"><img src="/static/images/index/index_news_more.png" alt="more"></p>
                             </div>
@@ -203,29 +183,38 @@
                     </div>
                     <div class="colR">
                         <ul class="list">
-                            <li><a href="new_20181101.html">
-                                    <p class="title">11月21日-23日，一通无限参加国际智慧酒店展览会</p>
-                                    <p class="desc">第五届中国（上海）国际智慧酒店展览会将于2018年11月21日-23日在国家… </p>
+                            <li><a href="javascript:;">
+                                    <p class="title">11月21日-23日，新闻标题新闻标题新闻标题</p>
+                                    <p class="desc">摘要摘要摘要摘要摘要摘要摘要摘要摘要… </p>
                                     <p class="date">2018-11-01</p>
                                 </a>
                             </li>
-                            <li><a href="new_20180727.html">
-                                    <p class="title">重磅|青岛一通无限获国广东方(CIBN)战略投资！</p>
-                                    <p class="desc">2018年7月25日，青岛一通无限数字传媒有限公司宣布获得国广东方网络络… </p>
-                                    <p class="date">2018-07-27</p>
+                            <li><a href="javascript:;">
+                                    <p class="title">11月21日-23日，新闻标题新闻标题新闻标题</p>
+                                    <p class="desc">摘要摘要摘要摘要摘要摘要摘要摘要摘要… </p>
+                                    <p class="date">2018-11-01</p>
                                 </a>
                             </li>
-                            <li><a href="new_20180410.html">
-                                    <p class="title">新方案，新UI，新智能，参展上海</p>
-                                    <p class="desc">本次展会，一通无限携最新3.0版本高调亮相，其中涵盖的语音AI操控体验… </p>
-                                    <p class="date">2018-04-10</p>
+                            <li><a href="javascript:;">
+                                    <p class="title">11月21日-23日，新闻标题新闻标题新闻标题</p>
+                                    <p class="desc">摘要摘要摘要摘要摘要摘要摘要摘要摘要… </p>
+                                    <p class="date">2018-11-01</p>
                                 </a>
                             </li>
                         </ul>
-                        <p class="more2"><a href="news.html"><img src="/static/images/index/index_news_more2.png" class="over"
-                                    alt="more"></a></p>
+                        <p class="more2"><a href="javascript:;"><img src="/static/images/index/index_news_more2.png" class="over" alt="more"></a></p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- schemeBox2 end -->
+        <div class="index_brand" id="index_brand">
+            <div class="inner selection">
+                <h2><img src="/static/images/index/index_brand_h2.png" alt="合作伙伴"></h2>
+                <ul class="clearfix">
+                    <li><img src="/static/images/index/index_brand_p1.jpg" alt="阿里云"></li>
+                    <li><img src="/static/images/index/index_brand_p2.jpg" alt="海尔"></li>
+                </ul>
             </div>
         </div>
         <!-- index_brand end -->
@@ -245,12 +234,13 @@
                     <div class="colC clearfix">
                         <dl class="link1">
                             <dt>产品方案</dt>
-                            <dd><a href="mediaSoftware.html">智慧工地解决方案</a></dd>
-                            <dd><a href="products.html#product1">智慧养殖解决方案</a></dd>
+                            <dd><a href="javascript:;">智慧工地解决方案</a></dd>
+                            <dd><a href="javascript:;">智慧养殖解决方案</a></dd>
                         </dl>
                     </div>
                     <div class="colR">
                         <p class="qrcode"><img src="/static/common/images/cn_footer_qrCode.jpg" alt=""></p>
+                        <p class="txt">一通无限公众号</p>
                     </div>
                 </div>
                 <div class="copyright">北京一通无限科技有限公司 Copyright &copy; 2018-2019 京ICP备号</div>
@@ -297,15 +287,15 @@
                     startFun: function (i) {
                         //console.log(i);
                         // 切换Logo
-                        if (i == 2) {
-                            if ($(window).scrollTop() < 100) {
-                                $('#HeadWrap').addClass('innerPage');
-                                $("#HeadWrap.innerPage").find(".logo img").attr('src', '/static/common/images/logo_white.png');
-                            }
-                        } else {
-                            $('#HeadWrap').removeClass('innerPage');
-                            $("#HeadWrap").find(".logo img").attr('src', '/static/common/images/logo.png');
-                        }
+                        // if (i == 2) {
+                        //     if ($(window).scrollTop() < 100) {
+                        //         $('#HeadWrap').addClass('innerPage');
+                        //         $("#HeadWrap.innerPage").find(".logo img").attr('src', '/static/common/images/logo_white.png');
+                        //     }
+                        // } else {
+                        //     $('#HeadWrap').removeClass('innerPage');
+                        //     $("#HeadWrap").find(".logo img").attr('src', '/static/common/images/logo.png');
+                        // }
                     },
                 });
             });
