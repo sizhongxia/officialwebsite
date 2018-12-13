@@ -234,10 +234,6 @@
 
     <div id="FootWrap">
         <div class="selection">
-            <div class="slogan">
-                <p class="txt"><img src="/static/images/index/index_footer_slogan.png" alt="联你我·享视界"></p>
-                <p class="join"><a href="addUTV.html"><img src="/static/images/index/index_footer_join.png" alt="合作加盟"></a></p>
-            </div>
             <div id="Footer" class="">
                 <div class="threeCol clearfix">
                     <div class="colL">
@@ -279,10 +275,7 @@
                         $("#index_case").height($("#index_case").height() * rate);
                         $("#index_brand").height($("#index_brand").height() * rate);
                         $("#index_news").height($("#index_news").height() * rate);
-                        $("#FootWrap").height(($("#FootWrap").height() + 40) * rate - (500 - (500 * rate)));
-                        $('.slogan').css({
-                            'padding': 270 * rate + 'px 0 ' + 230 * rate + 'px',
-                        });
+                        $("#FootWrap").height(($("#FootWrap").height() + 200) * rate - (500 - (500 * rate)));
                     }
                 };
 
