@@ -3,10 +3,10 @@
         <div id="Footer" class="">
             <div class="threeCol clearfix">
                 <div class="colL">
-                    <p class="name">北京一通无限科技有限公司</p>
+                    <p class="name"><<<.siteinfo.companyName>>></p>
                     <p>
-                        公司电话：010-86466469-1<br>
-                        公司地址：北京市海淀区中关村东路66号1号楼2层<br></p>
+                        公司电话：<<<.siteinfo.companyTelno>>><br>
+                        公司地址：<<<.siteinfo.companyAddress>>><br></p>
                 </div>
                 <div class="colC clearfix">
                     <dl class="link1">
@@ -16,11 +16,11 @@
                     </dl>
                 </div>
                 <div class="colR">
-                    <p class="qrcode"><img src="/static/common/images/cn_footer_qrCode.jpg" alt=""></p>
-                    <p class="txt">一通无限公众号</p>
+                    <p class="qrcode"><img src="<<<.siteinfo.mpQrcode>>>" alt=""></p>
+                    <p class="txt"><<<.siteinfo.mpName>>></p>
                 </div>
             </div>
-            <div class="copyright">北京一通无限科技有限公司 Copyright &copy; 2018-2019 京ICP备号</div>
+            <div class="copyright"><<<.siteinfo.copyright>>></div>
         </div>
     </div>
 </div>

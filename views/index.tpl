@@ -9,7 +9,7 @@
     <!-- Menu start -->
     <<<template "common/menu.tpl" .>>>
     <!-- Menu end -->
-    
+
     <div id="MainWrap">
         <div id="SliderWrap">
             <div id="slideBox" class="slideBox">
@@ -183,7 +183,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <p class="more2"><a href="javascript:;"><img src="/static/images/index/index_news_more2.png" class="over" alt="more"></a></p>
+                        <p class="more2"><a href="/news" target="_blank"><img src="/static/images/index/index_news_more2.png" class="over" alt="more"></a></p>
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@
                         // 新闻资讯
                         $("#index_news").height($("#index_news").height() * rate);
                         // 底部
-                        $("#FootWrap").height(($("#FootWrap").height() + 200) * rate - (500 - (500 * rate)));
+                        $("#FootWrap").height(($("#FootWrap").height() + 20) * rate);
                     }
                 };
 

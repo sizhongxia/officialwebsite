@@ -4,7 +4,6 @@ function init(callBack) {
     var ww = $(window).width();
     var rate = 1;
 
-    //console.log(ww);
     if (ww < 1920 && ww >= 1720) {
         // rate = (ww / 1920).toFixed(2);
     } else if (ww < 1720 && ww >= 1560) {
@@ -17,8 +16,6 @@ function init(callBack) {
         rate = 0.74;
     }
 
-
-    //console.log(rate);
     $('.selection').css({
         'transform': 'scale(' + rate + ')',
         'transform-origin': '50% 0',
