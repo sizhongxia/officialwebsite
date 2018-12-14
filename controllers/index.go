@@ -9,5 +9,11 @@ type IndexController struct {
 }
 
 func (this *IndexController) Index() {
+	this.Data["currentMenu"] = "index"
 	this.TplName = "index.tpl"
+}
+
+func (this *IndexController) News() {
+	this.Data["currentMenu"] = "news"
+	this.TplName = "news.tpl"
 }

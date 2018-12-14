@@ -2,33 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>一通无限-企业标语XXXX</title>
-    <meta name="description" content="物联网" />
-    <meta name="keywords" content="一通无限,物联网" />
-    <link rel="stylesheet" type="text/css" href="/static/common/css/import.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="/static/common/css/animate.css" media="all" />
+    <<<template "common/header.tpl" .>>>
 </head>
 
 <body>
-    <div id="HeadWrap">
-        <div id="Header" class="selection">
-            <h1 class="logo"><img src="/static/common/images/logo.png" alt="一通无限"></h1>
-            <ul id="HeaderNav">
-                <li><a href="/" class="active">首页</a></li>
-                <li><a href="javascript:;">新闻资讯</a></li>
-                <li><a href="javascript:;">产品方案</a>
-                    <div class="subnav subnav2">
-                        <ul>
-                            <li><a href="javascript:;">智慧工地解决方案</a></li>
-                            <li><a href="javascript:;">智慧养殖解决方案</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- HeadWrap end -->
+    <!-- Menu start -->
+    <<<template "common/menu.tpl" .>>>
+    <!-- Menu end -->
+    
     <div id="MainWrap">
         <div id="SliderWrap">
             <div id="slideBox" class="slideBox">
@@ -101,7 +82,7 @@
         <!-- index_schemeBox2 end -->
         <div class="index_advantage " id="index_advantage">
             <div class="inner clearfix selection">
-                <h2><img src="/static/images/index/index_cooperative_h2.png" alt="合作优势"></h2>
+                <h2><img src="/static/images/index/index_cooperative_h2.png" alt="解决方案"></h2>
                 <ul>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
                         <img src="/static/images/index/index_cooperative_p1.png" alt="影音正版授权 CIBN战略投资，影音内容17000+">
@@ -220,59 +201,37 @@
         <!-- index_brand end -->
     </div>
     <!-- ContentWrap end -->
+    <!-- Foot Start -->
+    <<<template "common/footer.tpl" .>>>
+    <!-- Foot End -->
 
-    <div id="FootWrap">
-        <div class="selection">
-            <div id="Footer" class="">
-                <div class="threeCol clearfix">
-                    <div class="colL">
-                        <p class="name">北京一通无限科技有限公司</p>
-                        <p>
-                            公司电话：010-86466469-1<br>
-                            公司地址：北京市海淀区中关村东路66号1号楼2层<br></p>
-                    </div>
-                    <div class="colC clearfix">
-                        <dl class="link1">
-                            <dt>产品方案</dt>
-                            <dd><a href="javascript:;">智慧工地解决方案</a></dd>
-                            <dd><a href="javascript:;">智慧养殖解决方案</a></dd>
-                        </dl>
-                    </div>
-                    <div class="colR">
-                        <p class="qrcode"><img src="/static/common/images/cn_footer_qrCode.jpg" alt=""></p>
-                        <p class="txt">一通无限公众号</p>
-                    </div>
-                </div>
-                <div class="copyright">北京一通无限科技有限公司 Copyright &copy; 2018-2019 京ICP备号</div>
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="/static/common/js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="/static/common/js/wow.min.js"></script>
-    <script type="text/javascript" src="/static/common/js/scrolltopcontrol.js"></script>
-    <script type="text/javascript" src="/static/common/js/jquery.common.js"></script>
-    <script type="text/javascript" src="/static/common/js/jquery.SuperSlide.2.1.3.js"></script>
-    <script src="/static/common/js/index.js"></script>
+    <<<template "common/jsres.tpl" .>>>
+        
     <script type="text/javascript">
         $(function () {
             init(function (rate) {
                 window.onload = function () {
                     //console.log($("#index_schemeBox2").height());
                     if (rate < 1) {
-                        $("#index_schemeBox2").height($("#index_schemeBox2").height() * rate);
+                        // $("#index_schemeBox2").height($("#index_schemeBox2").height() * rate);
+                        // 解决方案
                         $("#index_advantage").height($("#index_advantage").height() * rate);
+                        // 产品案例
                         $("#index_case").height($("#index_case").height() * rate);
+                        // 合作伙伴
                         $("#index_brand").height($("#index_brand").height() * rate);
+                        // 新闻资讯
                         $("#index_news").height($("#index_news").height() * rate);
+                        // 底部
                         $("#FootWrap").height(($("#FootWrap").height() + 200) * rate - (500 - (500 * rate)));
                     }
                 };
 
                 var wHeight = $(window).height();
-                $('#slideBox, #SliderWrap, .bd ul li').height(900);
                 if (rate < 1) {
                     $('#slideBox, #SliderWrap, .bd ul li').height(900 * rate);
+                } else {
+                    $('#slideBox, #SliderWrap, .bd ul li').height(900);
                 }
                 $('.bd>ul>li>.selection').css({
                     'transform-origin': '50% 50%',
@@ -282,7 +241,7 @@
                     effect: 'fold',
                     autoPlay: true,
                     mouseOverStop: false,
-                    interTime: 5000,
+                    interTime: 3000,
                     delayTime: 1000,
                     startFun: function (i) {
                         //console.log(i);
