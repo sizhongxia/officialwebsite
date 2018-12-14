@@ -113,32 +113,32 @@
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
                         <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p1.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt1.png" alt="产品案例"></p>
-                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
+                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt1.png" alt="产品案例"></p>
+                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
                             <p class="hoverbg"></p>
                         </a>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.1s">
                         <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p2.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt2.png" alt="产品案例"></p>
-                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
+                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt2.png" alt="产品案例"></p>
+                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
                             <p class="hoverbg"></p>
                         </a>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                         <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p4.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt4.png" alt="产品案例"></p>
-                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
+                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt4.png" alt="产品案例"></p>
+                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
                             <p class="hoverbg"></p>
                         </a>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <a href="javascript:;">
                             <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p3.jpg" alt=""></p>
-                            <p class="txt"><img src="/static/images/index/index_case_txt3.png" alt="产品案例"></p>
-                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p>
+                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt3.png" alt="产品案例"></p>
+                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
                             <p class="hoverbg"></p>
                         </a>
                     </li>
