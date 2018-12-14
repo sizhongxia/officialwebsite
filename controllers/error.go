@@ -22,8 +22,3 @@ func (this *ErrorController) Error500() {
 	this.Layout = "error/layout.tpl"
 	this.TplName = "error/500.tpl"
 }
-
-func (this *ErrorController) Error501() {
-	this.Layout = "error/layout.tpl"
-	this.TplName = "error/501.tpl"
-}

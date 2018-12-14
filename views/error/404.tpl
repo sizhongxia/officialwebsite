@@ -1,1 +1,1 @@
-<p>404</p>
+<p style="text-align: center;margin-top: 10%;">您请求的资源不存在或已删除，请确认URL地址是否输入正确！[<a href="/">返回主页</a>]</p>

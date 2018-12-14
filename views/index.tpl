@@ -151,12 +151,12 @@
                 <h2><img src="/static/images/index/index_news_h2.png" alt="新闻资讯"></h2>
                 <div class="twoCol clearfix">
                     <div class="colL">
-                        <a href="javascript:;">
+                        <a target="_blank" href="/news/<<<.newschosen.id>>>">
                             <!--class="ov"-->
-                            <p class="img imgTransition"><img src="/static/images/index/index_news_tmp.jpg" alt="新闻资讯"></p>
+                            <p class="img imgTransition"><img src="<<<.newschosen.coverPic>>>" alt="新闻资讯"></p>
                             <div class="txt">
                                 <p class="ttl">精选：</p>
-                                <p class="title">新闻标题新闻标题</p>
+                                <p class="title"><<<.newschosen.title>>></p>
                                 <p class="line"></p>
                                 <p class="more"><img src="/static/images/index/index_news_more.png" alt="more"></p>
                             </div>
@@ -164,24 +164,15 @@
                     </div>
                     <div class="colR">
                         <ul class="list">
-                            <li><a href="javascript:;">
-                                    <p class="title">11月21日-23日，新闻标题新闻标题新闻标题</p>
-                                    <p class="desc">摘要摘要摘要摘要摘要摘要摘要摘要摘要… </p>
-                                    <p class="date">2018-11-01</p>
+                            <<<range .newses.list>>>
+                            <li>
+                                <a target="_blank" href="/news/<<<.id>>>">
+                                    <p class="title" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;"><<<.title>>></p>
+                                    <p class="desc" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;"><<<.abstract>>></p>
+                                    <p class="date"><<<.time>>></p>
                                 </a>
                             </li>
-                            <li><a href="javascript:;">
-                                    <p class="title">11月21日-23日，新闻标题新闻标题新闻标题</p>
-                                    <p class="desc">摘要摘要摘要摘要摘要摘要摘要摘要摘要… </p>
-                                    <p class="date">2018-11-01</p>
-                                </a>
-                            </li>
-                            <li><a href="javascript:;">
-                                    <p class="title">11月21日-23日，新闻标题新闻标题新闻标题</p>
-                                    <p class="desc">摘要摘要摘要摘要摘要摘要摘要摘要摘要… </p>
-                                    <p class="date">2018-11-01</p>
-                                </a>
-                            </li>
+                            <<<end>>>
                         </ul>
                         <p class="more2"><a href="/news" target="_blank"><img src="/static/images/index/index_news_more2.png" class="over" alt="more"></a></p>
                     </div>

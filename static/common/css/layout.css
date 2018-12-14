@@ -1111,6 +1111,7 @@
 }
 .newDetailsBox .newsContent {
     font-size: 16px;
+    line-height: 32px;
     color: #333;
 }
 .newsBtnBox{

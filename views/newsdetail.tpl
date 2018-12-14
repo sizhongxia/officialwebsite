@@ -19,26 +19,30 @@
         <div class="newDetailsBox selection">
 
             <div class="title">
-                <h3>重磅 | 青岛联合视界获国广东方(CIBN)战略投资</h3>
-                <p>时间: 2018-07-30</p>
+                <h3><<<.news.title>>></h3>
+                <p>时间: <<<.news.time>>></p>
             </div>
             
             <div class="newsContent">
-                
+                <<<str2html .news.content>>>
             </div>
 
             <div class="newsBtnBox">
                 <div class="Row">
-                    <a href="javascript:;">
+                    <<<if .news.beforeId>>>
+                    <a href="/news/<<<.news.beforeId>>>">
                         <div class="Btn">
                             <p>上一篇</p>
                         </div>
                     </a>
-                    <a href="javascript:;">
+                    <<<end>>>
+                    <<<if .news.afterId>>>
+                    <a href="/news/<<<.news.afterId>>>">
                         <div class="Btn">
                             <p>下一篇</p>
                         </div>
                     </a>
+                    <<<end>>>
                 </div>
             </div>
 

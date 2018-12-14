@@ -1,1 +1,1 @@
-<<<.message>>>
+<p style="text-align: center;margin-top: 10%;"><<<.message>>>[<a href="/">返回主页</a>]</p>

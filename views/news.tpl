@@ -18,15 +18,19 @@
         <!-- banner end -->
         <div class="newsBox selection">
             <ul class="newsList">
+                <<<range .newses.list>>>
                 <li>
-                    <p class="img"><img src="/static/images/newDateImg/20181101_cover.jpg" width="430" height="250" alt=""></p>
-                    <p class="date">2018/11/01</p>
-                    <p class="title"><a href="new_20181101.html">11月21日-23日，联合视界参加国际智慧酒店展览会</a></p>
-                    <p class="desc">第五届中国（上海）国际智慧酒店展览会将于2018年11月21日-23日在国家会展中心（上海）举行，青岛联合视界数字传媒有限公司应邀参展，展位号：C016，诚邀业界各位同仁莅临。…</p>
-                    <p class="link"><a href="new_20181101.html">查看全文></a></p>
+                    <p class="img"><img src="<<<.coverPic>>>" width="430" height="250" alt=""></p>
+                    <p class="date"><<<.time>>></p>
+                    <p class="title"><a href="/news/<<<.id>>>"><<<.title>>></a></p>
+                    <p class="desc"><<<.abstract>>>…</p>
+                    <p class="link"><a href="/news/<<<.id>>>">查看全文></a></p>
                 </li>
+                <<<end>>>
             </ul>
-            <div class="newsMore"><a href="javascript:;">阅读更多+</a></div>
+            <<<if .newses.hasNextPage>>>
+            <div class="newsMore"><a href="/news?page=<<<.newses.hasNextPage>>>">阅读更多+</a></div>
+            <<<end>>>
         </div>
         <!-- newsBox end -->
     </div>

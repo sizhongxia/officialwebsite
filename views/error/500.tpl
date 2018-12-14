@@ -1,1 +1,1 @@
-<p>500</p>
+<p style="text-align: center;margin-top: 10%;">非常抱歉，遇到了不可描述的错误，请稍后再试！[<a href="/">返回主页</a>]</p>
