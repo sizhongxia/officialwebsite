@@ -12,11 +12,12 @@
     
     <!-- HeadWrap end -->
     <div id="MainWrap">
-        <div class="banner">
+        <<<str2html .product.introduce>>>
+        <!-- <div class="banner">
             <div class="inner"><img src="/static/images/products/product_banner.jpg" alt=""></div>
-        </div>
+        </div> -->
         <!-- banner end -->
-        <div class="productContent" style="background: #ffffff; padding: 60px 0;">
+        <!-- <div class="productContent">
             <div id="productBox1" class="productBox selection">
                 <div id="product1" style="padding-top: 165px; margin-top: -165px;">
                     <div class="content">
@@ -69,7 +70,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- casesBox end -->
     </div>
     <!-- ContentWrap end -->

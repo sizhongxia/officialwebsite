@@ -15,16 +15,16 @@
             <div id="slideBox" class="slideBox">
                 <div class="hd">
                     <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
+                        <<<range .banners.list>>>
+                        <li><<<.title>>></li>
+                        <<<end>>>
                     </ul>
                 </div>
                 <div class="bd">
                     <ul>
-                        <li class="p1"></li>
-                        <li class="p2"></li>
-                        <li class="p3"></li>
+                        <<<range .banners.list>>>
+                        <li class="p" style="background-image: url(<<<.picUrl>>>)"></li>
+                        <<<end>>>
                     </ul>
                 </div>
             </div>
@@ -82,25 +82,21 @@
         <!-- index_schemeBox2 end -->
         <div class="index_advantage " id="index_advantage">
             <div class="inner clearfix selection">
-                <h2><img src="/static/images/index/index_cooperative_h2.png" alt="解决方案"></h2>
                 <ul>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
-                        <img src="/static/images/index/index_cooperative_p1.png" alt="影音正版授权 CIBN战略投资，影音内容17000+">
+                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_default.png" alt="专业">
+                        <span style="display: block;line-height: 32px;font-size: 20px;">专业</span>
+                        <p style="padding: 4px 30px;margin-bottom: 20px;">专有网络隔离攻击；安全组、高防等安全服务保证您的服务安全运行。</p>
                     </li>
-                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <img src="/static/images/index/index_cooperative_p2.png" alt="全品牌终端兼容 兼容任何型号电视、终端显示屏">
+                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
+                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_default.png" alt="专业">
+                        <span style="display: block;line-height: 32px;font-size: 20px;">专业</span>
+                        <p style="padding: 4px 30px;margin-bottom: 20px;">专有网络隔离攻击；安全组、高防等安全服务保证您的服务安全运行。</p>
                     </li>
-                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <img src="/static/images/index/index_cooperative_p3.png" alt="全业态酒店服务 个性UI定制，发掘酒店独有特色">
-                    </li>
-                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <img src="/static/images/index/index_cooperative_p4.png" alt="人机交互友好 人性化界面设置，操作友好">
-                    </li>
-                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                        <img src="/static/images/index/index_cooperative_p5.png" alt="全开放平台共享 聚合平台，共享各种APP、软件、商户">
-                    </li>
-                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="/static/images/index/index_cooperative_p6.png" alt="广告业务创收 广告入驻酒店,发挥屏显价值">
+                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
+                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_default.png" alt="专业">
+                        <span style="display: block;line-height: 32px;font-size: 20px;">专业</span>
+                        <p style="padding: 4px 30px;margin-bottom: 20px;">专有网络隔离攻击；安全组、高防等安全服务保证您的服务安全运行。</p>
                     </li>
                 </ul>
             </div>
@@ -108,19 +104,11 @@
         <!-- index_advantage end -->
         <div class="index_case" id="index_case">
             <div class="inner clearfix selection">
-                <h2><img src="/static/images/index/index_case_h2.png" alt="产品案例"></h2>
+                <h2><img src="/static/images/index_case_h2.png" alt="产品案例"></h2>
                 <ul class="clearfix">
-                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
-                        <a href="javascript:;">
-                            <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p1.jpg" alt=""></p>
-                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt1.png" alt="产品案例"></p>
-                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
-                            <p class="hoverbg"></p>
-                        </a>
-                    </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.1s">
                         <a href="javascript:;">
-                            <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p2.jpg" alt=""></p>
+                            <p class="imgBg"><img class="bg" src="/static/images/index_case_p2.jpg" alt=""></p>
                             <!-- <p class="txt"><img src="/static/images/index/index_case_txt2.png" alt="产品案例"></p>
                             <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
                             <p class="hoverbg"></p>
@@ -128,16 +116,24 @@
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                         <a href="javascript:;">
-                            <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p4.jpg" alt=""></p>
-                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt4.png" alt="产品案例"></p>
+                            <p class="imgBg"><img class="bg" src="/static/images/index_case_p3.jpg" alt=""></p>
+                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt3.png" alt="产品案例"></p>
+                            <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
+                            <p class="hoverbg"></p>
+                        </a>
+                    </li>
+                    <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
+                        <a href="javascript:;">
+                            <p class="imgBg"><img class="bg" src="/static/images/index_case_p1.jpg" alt=""></p>
+                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt1.png" alt="产品案例"></p>
                             <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
                             <p class="hoverbg"></p>
                         </a>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <a href="javascript:;">
-                            <p class="imgBg"><img class="bg" src="/static/images/index/index_case_p3.jpg" alt=""></p>
-                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt3.png" alt="产品案例"></p>
+                            <p class="imgBg"><img class="bg" src="/static/images/index_case_p4.jpg" alt=""></p>
+                            <!-- <p class="txt"><img src="/static/images/index/index_case_txt4.png" alt="产品案例"></p>
                             <p class="more"><img src="/static/images/index/index_case_more.png" alt="more"></p> -->
                             <p class="hoverbg"></p>
                         </a>
@@ -148,17 +144,16 @@
         <!-- index_brand end -->
         <div class="index_news" id="index_news">
             <div class="inner selection">
-                <h2><img src="/static/images/index/index_news_h2.png" alt="新闻资讯"></h2>
+                <h2><img src="/static/images/index_news_h2.png" alt="新闻资讯"></h2>
                 <div class="twoCol clearfix">
                     <div class="colL">
-                        <a target="_blank" href="/news/<<<.newschosen.id>>>">
+                        <a href="/news/<<<.newschosen.id>>>">
                             <!--class="ov"-->
                             <p class="img imgTransition"><img src="<<<.newschosen.coverPic>>>" alt="新闻资讯"></p>
                             <div class="txt">
-                                <p class="ttl">精选：</p>
                                 <p class="title"><<<.newschosen.title>>></p>
                                 <p class="line"></p>
-                                <p class="more"><img src="/static/images/index/index_news_more.png" alt="more"></p>
+                                <p class="more"><img src="/static/images/more_white.png" alt="more"></p>
                             </div>
                         </a>
                     </div>
@@ -166,7 +161,7 @@
                         <ul class="list">
                             <<<range .newses.list>>>
                             <li>
-                                <a target="_blank" href="/news/<<<.id>>>">
+                                <a href="/news/<<<.id>>>">
                                     <p class="title" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;"><<<.title>>></p>
                                     <p class="desc" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;"><<<.abstract>>></p>
                                     <p class="date"><<<.time>>></p>
@@ -174,7 +169,7 @@
                             </li>
                             <<<end>>>
                         </ul>
-                        <p class="more2"><a href="/news" target="_blank"><img src="/static/images/index/index_news_more2.png" class="over" alt="more"></a></p>
+                        <p class="more2"><a href="/news"><img src="/static/images/more.png" class="over" alt="more"></a></p>
                     </div>
                 </div>
             </div>
@@ -182,10 +177,9 @@
         <!-- schemeBox2 end -->
         <div class="index_brand" id="index_brand">
             <div class="inner selection">
-                <h2><img src="/static/images/index/index_brand_h2.png" alt="合作伙伴"></h2>
+                <h2><img src="/static/images/index_brand_h2.png" alt="合作伙伴"></h2>
                 <ul class="clearfix">
-                    <li><img src="/static/images/index/index_brand_p1.jpg" alt="阿里云"></li>
-                    <li><img src="/static/images/index/index_brand_p2.jpg" alt="海尔"></li>
+                    <li><img src="/static/images/partner_logo.jpg" alt="LOGO"></li>
                 </ul>
             </div>
         </div>

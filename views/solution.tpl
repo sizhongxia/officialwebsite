@@ -13,12 +13,12 @@
     <!-- HeadWrap end -->
     <div id="MainWrap">
         <div class="banner">
-            <div class="inner"><img src="/static/images/project_businessShow/project_businessShow_banner.jpg" alt="商显方案"></div>
+            <div class="inner"><img src="/static/images/solution_banner.jpg" alt="产品案例"></div>
         </div>
         <!-- banner end -->
         <div class="projectBox projectSection2">
             <div class="projectInner selection">
-                <h2><img src="/static/images/project_businessShow/project_businessShow_scene_title.png" alt="应用场景"></h2>
+                <h2><img src="/static/images/case_show.png" alt="案例展示"></h2>
                 <ul class="projectList">
                     <li>
                         <div class="content">
@@ -26,16 +26,13 @@
                                 <div class="hotelRow">
                                     <div class="Col">
                                         <div class="Row">
+                                            <<<range .products.list>>>
                                             <div class="businessImg">
-                                                <p class="imgTransition"><img src="/static/images/project_businessShow/project_businessShow_scene_img1.jpg" height="275" alt=""></p>
+                                                <p class="imgTransition"><img src="<<<.coverPicUrl>>>" height="275" alt=""></p>
                                                 <p class="hoverbg"></p>
-                                                <p class="title"><img src="/static/images/project_businessShow/project_businessShow_scene_img1_title.png" alt="智慧工地"></p>
+                                                <p class="title"><a href="/solution/<<<.id>>>"><<<.shortName>>></a></p>
                                             </div>
-                                            <div class="businessImg">
-                                                <p class="imgTransition"><img src="/static/images/project_businessShow/project_businessShow_scene_img2.jpg" height="275" alt=""></p>
-                                                <p class="hoverbg"></p>
-                                                <p class="title"><img src="/static/images/project_businessShow/project_businessShow_scene_img2_title.png" alt="智慧养殖"></p>
-                                            </div>
+                                            <<<end>>>
                                         </div>
                                         <!-- <div class="Row">
                                             <div class="businessImg">

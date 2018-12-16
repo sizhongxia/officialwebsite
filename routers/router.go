@@ -21,5 +21,6 @@ func init() {
 	beego.Router("/solution", &controllers.IndexController{}, "*:Solution")
 	beego.Router("/solution/:id", &controllers.IndexController{}, "*:SolutionDetail")
 
-	beego.Router("/image", &controllers.IndexController{}, "*:Image")
+	beego.Router("/aboutus", &controllers.IndexController{}, "*:AboutUs")
+	// beego.Router("/image", &controllers.IndexController{}, "*:Image")
 }

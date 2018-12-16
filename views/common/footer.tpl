@@ -11,8 +11,9 @@
                 <div class="colC clearfix">
                     <dl class="link1">
                         <dt>产品方案</dt>
-                        <dd><a href="javascript:;">智慧工地解决方案</a></dd>
-                        <dd><a href="javascript:;">智慧养殖解决方案</a></dd>
+                        <<<range .products.list>>>
+                        <dd><a href="/solution/<<<.id>>>"><<<.shortName>>></a></dd>
+                        <<<end>>>
                     </dl>
                 </div>
                 <div class="colR">
@@ -20,7 +21,7 @@
                     <p class="txt"><<<.siteinfo.mpName>>></p>
                 </div>
             </div>
-            <div class="copyright"><<<.siteinfo.copyright>>></div>
+            <div class="copyright"><<<str2html .siteinfo.copyright>>></div>
         </div>
     </div>
 </div>

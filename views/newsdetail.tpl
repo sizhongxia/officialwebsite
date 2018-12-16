@@ -12,9 +12,9 @@
 
     <!-- HeadWrap end -->
     <div id="MainWrap">
-        <div class="banner">
+        <!-- <div class="banner">
             <div class="inner"><img src="/static/images/newDetails/newDetails_banner.jpg" alt=""></div>
-        </div>
+        </div> -->
         <!-- banner end -->
         <div class="newDetailsBox selection">
 
