@@ -12,7 +12,7 @@
                     <dl class="link1">
                         <dt>产品方案</dt>
                         <<<range .products.list>>>
-                        <dd><a href="/solution/<<<.id>>>"><<<.shortName>>></a></dd>
+                        <dd><a><<<.shortName>>></a></dd>
                         <<<end>>>
                     </dl>
                 </div>

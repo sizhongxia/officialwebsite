@@ -82,21 +82,22 @@
         <!-- index_schemeBox2 end -->
         <div class="index_advantage " id="index_advantage">
             <div class="inner clearfix selection">
+                <h2 style="text-align: center;font-size: 18px;color: #d3d3d3;">一通无限，为客户提供定制化的一站式物联网解决方案及服务</h2>
                 <ul>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
-                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_default.png" alt="专业">
-                        <span style="display: block;line-height: 32px;font-size: 20px;">专业</span>
-                        <p style="padding: 4px 30px;margin-bottom: 20px;">专有网络隔离攻击；安全组、高防等安全服务保证您的服务安全运行。</p>
+                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_02.png" alt="数据采集">
+                        <span style="display: block;line-height: 32px;font-size: 20px;">数据采集</span>
+                        <p style="padding: 4px 30px;margin-bottom: 20px;">通过智能硬件采集设备，可采集各行业关键数据</p>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
-                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_default.png" alt="专业">
-                        <span style="display: block;line-height: 32px;font-size: 20px;">专业</span>
-                        <p style="padding: 4px 30px;margin-bottom: 20px;">专有网络隔离攻击；安全组、高防等安全服务保证您的服务安全运行。</p>
+                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_05.png" alt="数据存储">
+                        <span style="display: block;line-height: 32px;font-size: 20px;">数据存储</span>
+                        <p style="padding: 4px 30px;margin-bottom: 20px;">利用大数据存储引擎，对采集数据实时存储</p>
                     </li>
                     <li class="wow animated slideInUp" data-wow-duration="1s" data-wow-delay="0s">
-                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_default.png" alt="专业">
-                        <span style="display: block;line-height: 32px;font-size: 20px;">专业</span>
-                        <p style="padding: 4px 30px;margin-bottom: 20px;">专有网络隔离攻击；安全组、高防等安全服务保证您的服务安全运行。</p>
+                        <img style="width:150px;height:150px;" src="/static/images/index_characteristic_03.png" alt="智能分析">
+                        <span style="display: block;line-height: 32px;font-size: 20px;">智能分析</span>
+                        <p style="padding: 4px 30px;margin-bottom: 20px;">完整的海量数据分析，借助专家系统为采集数据赋能</p>
                     </li>
                 </ul>
             </div>
@@ -174,7 +175,7 @@
                 </div>
             </div>
         </div>
-        <!-- schemeBox2 end -->
+        <!-- schemeBox2 end 
         <div class="index_brand" id="index_brand">
             <div class="inner selection">
                 <h2><img src="/static/images/index_brand_h2.png" alt="合作伙伴"></h2>
@@ -182,7 +183,7 @@
                     <li><img src="/static/images/partner_logo.jpg" alt="LOGO"></li>
                 </ul>
             </div>
-        </div>
+        </div>-->
         <!-- index_brand end -->
     </div>
     <!-- ContentWrap end -->
