@@ -23,4 +23,6 @@ func init() {
 
 	beego.Router("/aboutus", &controllers.IndexController{}, "*:AboutUs")
 	// beego.Router("/image", &controllers.IndexController{}, "*:Image")
+
+	beego.Router("/wx/bind", &controllers.WxController{}, "*:Bind")
 }
