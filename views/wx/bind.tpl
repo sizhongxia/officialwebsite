@@ -36,7 +36,7 @@
     <div class="weui-cell">
       <div class="weui-cell__hd"><label class="weui-label">密码</label></div>
       <div class="weui-cell__bd">
-        <input id="pwd" class="weui-input" type="text" placeholder="请输入账号密码">
+        <input id="pwd" class="weui-input" type="password" placeholder="请输入账号密码">
       </div>
     </div>
   </div>
