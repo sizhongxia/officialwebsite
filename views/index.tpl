@@ -1,15 +1,12 @@
 <!doctype html>
 <html>
-
 <head>
     <<<template "common/header.tpl" .>>>
 </head>
-
 <body>
     <!-- Menu start -->
     <<<template "common/menu.tpl" .>>>
     <!-- Menu end -->
-
     <div id="MainWrap">
         <div id="SliderWrap">
             <div id="slideBox" class="slideBox">
@@ -148,7 +145,7 @@
                 <h2><img src="/static/images/index_news_h2.png" alt="新闻资讯"></h2>
                 <div class="twoCol clearfix">
                     <div class="colL">
-                        <a href="/news/<<<.newschosen.id>>>">
+                        <a href="/news/<<<.newschosen.id>>>" target="_blank">
                             <!--class="ov"-->
                             <p class="img imgTransition"><img src="<<<.newschosen.coverPic>>>" alt="新闻资讯"></p>
                             <div class="txt">
@@ -162,7 +159,7 @@
                         <ul class="list">
                             <<<range .newses.list>>>
                             <li>
-                                <a href="/news/<<<.id>>>">
+                                <a href="/news/<<<.id>>>" target="_blank">
                                     <p class="title" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;"><<<.title>>></p>
                                     <p class="desc" style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;"><<<.abstract>>></p>
                                     <p class="date"><<<.time>>></p>
@@ -212,7 +209,6 @@
                         $("#FootWrap").height(($("#FootWrap").height() + 20) * rate);
                     }
                 };
-
                 var wHeight = $(window).height();
                 if (rate < 1) {
                     $('#slideBox, #SliderWrap, .bd ul li').height(900 * rate);
@@ -248,5 +244,4 @@
         });
     </script>
 </body>
-
 </html>
